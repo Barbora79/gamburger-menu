@@ -87,7 +87,7 @@ nav ul.open {
 }
 
 form {
-    width: 400px;
+    width: 300px;
     margin: 20px auto 0 auto;
     border: 1px solid gray;
     border-radius: 5px;
@@ -107,7 +107,7 @@ main {
 }
 
 .btn {
-    width: 250px;
+    width: 400px;
     height: 100px;
     background-color: rgb(71, 71, 236);
     border: none;
@@ -126,8 +126,8 @@ main {
 
 .modal {
     display: none;
-    width: 350px;
-    height: 250px;
+    width: 300px;
+    height: 150px;
     border: 2px solid rgb(29, 28, 28);
     position: fixed;
     top: 50%;
