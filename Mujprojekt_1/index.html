@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="/.logo"><img src="icona1.webp"/></a>
+        <nav id="nav">
+            <ul class="list">
+                <li><a href="index.html">Úvod</a></li>
+                <li><a href="mojevyroba.html">Moje výroba</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    </header>
+        </body>
+    <main>
+        <section>
+            <h2 class="nazev">Úvod</h2>
+            <p class="white">
+                    Unikátní výroba z epoxidové pryskyřice.
+                    Každý výrobek je vyroben s láskou a pečlivostí.
+                    Ručně a s láskou odlevám každý výrobek z licí pryskyřice 
+                    pomocí silikonových forem, které jsou úžasným pomocníkem.
+                    Celý postup výroby od nápadu, ale i na přání zákazníka,
+                    navážení, obarvení a celý postup, probíhá pod neustálou
+                    kontrolou.
+            </p>
+        </section>
+<footer>
+    <div class="footer">
+        <ul class="barva">
+    <li><a href="tel:+420734108686">Zavolej mi</a></li>
+    <li><a href="https://www.Facebook.com">Facebook</a></li>
+    <li><a href="https://www.Instagram.com">Instagram</a></li>
+        </ul>
+    </div>   
+</footer>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const navList = document.querySelector("nav ul");  // Tohle vybere seznam, který bude měněn
+
+// Kliknutí na hamburger spustí toggle třídy 'open' pro zobrazení/skrytí menu
+hamburger.addEventListener("click", () => {
+    navList.classList.toggle("open");
+});
+
+  </script>
+  
+  
+</body>
+</html> 
+</body>
+</html>

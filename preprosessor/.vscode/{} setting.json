@@ -1,0 +1,10 @@
+{
+    "liveSaaCompile.settings.formats": [
+     {
+        "format": "expended" ,
+        "extensionName": ".css" ,
+        "savePath": "/css"
+     }
+ ] ,
+ "liveSassCompile.settings.generateMap": false
+}
